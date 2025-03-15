@@ -53,3 +53,18 @@ class PiedraPapelTijeras():
         print("-"*15)
         print (resultado)
         print("-"*15)
+
+print("-"*15)
+print("¡Bienvenido a Piedra, Papel o Tijeras!")
+print("-"*15)
+
+while True:
+    PiedraPapelTijeras.juego()
+    
+
+    jugar_otra = input("\n¿Quieres jugar otra ronda? (s/n): ").lower()
+    if jugar_otra != "s":
+        print("Gracias por jugar, hasta la proxima")
+        break
+
+    time.sleep(0.5)
