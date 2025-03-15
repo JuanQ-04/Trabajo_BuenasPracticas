@@ -11,3 +11,5 @@ class PiedraPapelTijeras():
             return "Papel"
         elif opcion == 3:
             return "Tijeras"
+    
+    
